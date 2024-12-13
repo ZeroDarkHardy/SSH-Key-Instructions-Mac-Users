@@ -138,6 +138,8 @@ This copies the public key to your clipboard.
 
 Verify that your key was added successfully by typing the following command in Terminal:
 
+**Note:** On your first attempt, you may be asked to verify the authenticity of the host by typing 'yes'. This is normal and only occurs the first time.
+
 ```bash
 ssh -T git@github.com
 ```
