@@ -177,10 +177,10 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 4. Clone the repository using the SSH URL:
 
    ```bash
-   git clone git@github.com:username/repository-name.git
+   git clone paste_the_full_SSH_URL_here
    ```
 
-   Replace `username` and `repository-name` with your GitHub username and the repository name.
+   Be sure to paste the entire link you copied from the GitHub repository page without including any `< >` brackets.
 
 5. Navigate into the cloned repository:
 
@@ -210,7 +210,46 @@ Your SSH key can also be used to authenticate with your class GitLab page. Follo
 6. Give the key a descriptive title (e.g., `My Mac SSH Key`).
 7. Click **Add Key** to save it.
 
-Once added, you can use the same SSH key to interact with your repositories on GitLab.
+### Clone the GitLab Repository to Your Computer
+
+To access the class materials:
+
+1. Navigate to the GitLab repository page and copy the **SSH URL** from the **Clone** dropdown menu.
+2. Open Terminal and navigate to the directory where you want to clone the repository. For example:
+
+   ```bash
+   cd ~/Documents/Projects
+   ```
+
+3. Clone the repository:
+
+   ```bash
+   git clone paste_the_full_SSH_URL_here
+   ```
+
+   Be sure to paste the entire link you copied from the GitLab repository page.
+
+4. Navigate into the cloned repository:
+
+   ```bash
+   cd classroom-repository-name
+   ```
+
+### Keep Your Repository Updated
+
+You will need to pull the latest updates before every class session and after class to retrieve solutions to classroom activities:
+
+1. To pull updates:
+
+   ```bash
+   git pull
+   ```
+
+   This will synchronize your local copy with the latest changes on GitLab.
+
+2. Run `git pull` about 30 minutes after class concludes to access the solutions provided by the instructor.
+
+Remember, you will not be pushing changes to this repository.
 ---
 
 ## Troubleshooting
