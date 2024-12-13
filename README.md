@@ -1,4 +1,4 @@
-Generating and Registering an SSH Key on macOS
+# Generating and Registering an SSH Key on macOS
 
 This guide will walk you through the steps to generate an SSH key using the macOS Terminal and register it with your GitHub account. It will also explain how to use the same SSH key for GitLab.
 
